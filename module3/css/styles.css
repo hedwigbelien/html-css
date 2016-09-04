@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  font-size: 16px;
+  color: #666;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ccc;
+  border-radius: 0;
+  border: 0;
+  margin: 0px;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #666;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-bottom: 30px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  padding: 0px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+/* END HEADER */
+                                                                                                                         
+.p1 {  
+  height: 1000px;
+  color: #666;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.wit {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 25px;
+}
+li {
+  font-size: 125%;
+  padding: 0px;
+  border: 1px solid #000;
+}
+
+.col-xs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 100%;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+ #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+ #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
